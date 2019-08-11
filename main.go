@@ -27,7 +27,7 @@ func main() {
 	})
 
 	router.GET("/mark", func(c *gin.Context) {
-		c.HTML(http.StatusOK, string(blackfriday.Run([]byte("**hi!**"))))
+		c.String(http.StatusOK, string(blackfriday.Run([]byte("**hi!**"))))
 	})
 
 	router.Run(":" + port)
