@@ -12,6 +12,6 @@ require (
 	github.com/russross/blackfriday v2.0.0+incompatible
 	github.com/shurcooL/sanitized_anchor_name v1.0.0 // indirect
 	github.com/stretchr/testify v1.3.0 // indirect
-	golang.org/x/net v0.0.0-20150629084131-d9558e5c97f8 // indirect
+	golang.org/x/net v0.7.0 // indirect
 	gopkg.in/bluesuncorp/validator.v5 v5.9.1 // indirect
 )
